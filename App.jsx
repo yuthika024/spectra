@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import "global.css";
-import LandingPage    from "./modes/LandingPage.jsx";
-import ScannerMode    from "./modes/ScannerMode.jsx";
-import PositionMode   from "./modes/PositionMode.jsx";
-import CompareMode    from "./modes/CompareMode.jsx";
-import PortfolioMode  from "./modes/PortfolioMode.jsx";
+import "./global.css";
+import LandingPage    from "./LandingPage.jsx";
+import ScannerMode    from "./ScannerMode.jsx";
+import PositionMode   from "./PositionMode.jsx";
+import CompareMode    from "./CompareMode.jsx";
+import PortfolioMode  from "./PortfolioMode.jsx";
 
 const TABS = [
   { id: "scan",      label: "Scan" },
