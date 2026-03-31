@@ -1,4 +1,4 @@
-import { calcPositionSize, fmtP } from "../utils/helpers.js";
+import { calcPositionSize, fmtP } from "./helpers.js";
 
 export default function PositionSizingPanel({ setup, capital }) {
   const pos = calcPositionSize(capital, setup.currentPrice, setup.stopLoss);
