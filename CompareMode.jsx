@@ -138,7 +138,7 @@ export default function CompareMode() {
             {/* WHY #1 WINS */}
             {winnerReason && (
               <div className="winner-box">
-                <div className="winner-box-lbl">\u{1F947} Why #{1} wins</div>
+                <div className="winner-box-lbl">\u{1F947} Why #1 wins</div>
                 <div className="winner-box-txt">{winnerReason}</div>
               </div>
             )}
