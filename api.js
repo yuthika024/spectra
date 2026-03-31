@@ -17,6 +17,7 @@ const API_BASE = import.meta.env.VITE_API_BASE || "";
  * @returns {Promise<string>} - concatenated text from all content blocks
  */
 export async function claudeCall(systemPrompt, userPrompt, useSearch = false) {
+  console.log("API_BASE:", API_BASE);
   const body = {
     model: "claude-sonnet-4-6",
     max_tokens: 600,
