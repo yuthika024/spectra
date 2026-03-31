@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./styles/global.css";
+import "global.css";
 import LandingPage    from "./modes/LandingPage.jsx";
 import ScannerMode    from "./modes/ScannerMode.jsx";
 import PositionMode   from "./modes/PositionMode.jsx";
