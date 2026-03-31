@@ -1,15 +1,15 @@
 import { useState, useCallback } from "react";
-import StockCard from "../components/StockCard.jsx";
-import Pipeline from "../components/Pipeline.jsx";
-import { claudeCall } from "../utils/api.js";
-import { MARKETS, RUBRIC, MAX_SCORE, MIN_SCORE, STYLE_RULES } from "../utils/constants.js";
+import StockCard from "./StockCard.jsx";
+import Pipeline from "./Pipeline.jsx";
+import { claudeCall } from "./api.js";
+import { MARKETS, RUBRIC, MAX_SCORE, MIN_SCORE, STYLE_RULES } from "./constants.js";
 import {
   extractJSON,
   validateSetup,
   normalizeSetup,
   scoreColor,
   buildRubricText,
-} from "../utils/helpers.js";
+} from "./helpers.js";
 
 export default function ScannerMode() {
   const [mode,       setMode]       = useState("swing");
