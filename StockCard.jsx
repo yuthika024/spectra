@@ -8,8 +8,8 @@ import {
   fmtP,
   tvWidgetUrl,
   tvUrl,
-} from "../utils/helpers.js";
-import { MAX_SCORE } from "../utils/constants.js";
+} from "./helpers.js";
+import { MAX_SCORE } from "./constants.js";
 
 export default function StockCard({ setup, capital, market, idx }) {
   const [showChart, setShowChart] = useState(false);
